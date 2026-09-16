@@ -1,0 +1,12 @@
+[project]
+name = "grog-bj"
+version = "1.0.0"
+description = "Multi-agent simplified Blackjack CLI"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-core>=0.3.72",
+    "langchain-groq>=0.3.0",
+    "python-dotenv>=1.0.1",
+    "colorama>=0.4.6",
+]
